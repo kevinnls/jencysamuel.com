@@ -1,0 +1,16 @@
+[submodule "wp-content/uploads"]
+	path = wp-content/uploads
+	url = https://git.kevinnlsamuel.com/js-wp-admin/jencysamuel.com.git
+	branch = uploads
+[submodule "wp-content/themes/twentynineteen"]
+	path = wp-content/themes/twentynineteen
+	url = https://git.kevinnlsamuel.com/js-wp-admin/jencysamuel.com.git
+	branch = _theme/twentynineteen
+[submodule "wp-content/themes/twentytwenty"]
+	path = wp-content/themes/twentytwenty
+	url = https://git.kevinnlsamuel.com/js-wp-admin/jencysamuel.com.git
+	branch = _theme/twentytwenty
+[submodule "wp-content/themes/twentytwentyone"]
+	path = wp-content/themes/twentytwentyone
+	url = https://git.kevinnlsamuel.com/js-wp-admin/jencysamuel.com.git
+	branch = _theme/twentytwentyone
