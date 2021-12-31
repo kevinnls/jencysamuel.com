@@ -1,0 +1,34 @@
+services:
+  wordpress:
+    image: wordpress
+    expose:
+      - 80
+    env_file:
+      - wordpress.env
+    environment:
+      - VIRTUAL_HOST=$FQDN
+      - LETSENCRYPT_HOST=$FQDN
+    networks:
+      - wordpress
+      - proxy
+    volumes:
+      - wordpress:/var/www/html
+
+  database:
+    image: mysql
+    env_file:
+      - database.env
+    networks:
+      - wordpress
+    volumes:
+      - database:/var/lib/mysql
+
+networks:
+  wordpress:
+  proxy:
+    external: true
+    name: publicproxy
+
+volumes:
+  wordpress:
+  database:
