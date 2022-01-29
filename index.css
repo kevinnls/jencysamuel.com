@@ -17,6 +17,7 @@ body {
 
 header {
 	text-align: center;
+	display: grid;
 }
 header > nav h2 {
 	margin: 0px;
@@ -34,7 +35,7 @@ header > nav > ul {
 }
 header > nav > ul > li {
 	margin: 1ch;
-	transition: .50s;
+	transition: .750s;
 }
 header > nav > ul > li:hover {
 	font-size: 1.75em;
