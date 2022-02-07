@@ -1,42 +1,71 @@
-html, body, p, h1, h2, h3, h4, h5, h6, div {
-	box-sizing: border-box;
+:root {
+  --bg-color: var(--bg-color);
+  --fg-color: var(--fg-color);
+  --accent-color: hsl(120, 65%, 46%);
+  --theme-color-dark: hsl(120, 45%, 24%);
+  --theme-color-light: hsl(120, 46%, 47%);
+}
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div {
+  box-sizing: border-box;
 }
 html {
-	color-scheme: dark light;
-	height: 100%;
-	scroll-behavior: smooth;
+  color-scheme: dark light;
+  height: 100%;
+  scroll-behavior: smooth;
 }
 body {
-	height: 100%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	margin: 0px;
-	padding: 5px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  padding: 5px;
 }
 
 header {
-	text-align: center;
-	display: grid;
+  text-align: center;
+  display: grid;
 }
 header > nav h2 {
-	margin: 0px;
+  margin: 0px;
 }
 header > nav > ul {
-	height: 2em;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-between;
-	list-style: none;
-	padding: 0px;
-	width: fit-content;
-	margin: auto;
+  height: 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0px;
+  width: fit-content;
+  margin: auto;
 }
 header > nav > ul > li {
-	margin: 1ch;
-	transition: .750s;
+  margin: 1ch;
 }
-header > nav > ul > li:hover {
-	font-size: 1.75em;
+header > nav > ul > li > input + label {
+  transition: 0.75s;
+}
+header > nav > ul > li:hover > input + label {
+  /* font-size: 1.75em; */
+  text-shadow: 0px 0px 15px var(--accent-color);
+}
+header > nav > ul > li > input[type="radio"] {
+  display: none;
+}
+header > nav > ul > li > label {
+  cursor: pointer;
+}
+header > nav > ul > li > input:checked + label {
+  /* font-size: 1.75em; */
+  text-shadow: 0px 0px 15px var(--accent-color);
 }
