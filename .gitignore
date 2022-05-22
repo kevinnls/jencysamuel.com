@@ -6,3 +6,4 @@ languages/
 *upgrade*
 ai1wm-backups/
 plugins/*/
+*.env

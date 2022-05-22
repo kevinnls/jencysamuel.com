@@ -1,0 +1,26 @@
+services:
+  wordpress:
+    image: wordpress
+    ports:
+      - "127.0.0.1:80:80"
+    env_file:
+      - wordpress.env
+    networks:
+      - wordpress
+    volumes:
+      - ./:/var/www/html
+
+  database:
+    image: mysql
+    env_file:
+      - database.env
+    networks:
+      - wordpress
+    volumes:
+      - database:/var/lib/mysql
+
+networks:
+  wordpress:
+
+volumes:
+  database:
