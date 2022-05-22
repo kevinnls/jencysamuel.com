@@ -1,0 +1,9 @@
+*.wpress
+.htaccess
+/wp-content/a1w
+languages/
+*cache*
+*upgrade*
+ai1wm-backups/
+plugins/*/
+*.env
