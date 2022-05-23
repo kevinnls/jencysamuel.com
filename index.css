@@ -12,11 +12,12 @@ div {
 }
 html {
   color-scheme: dark light;
-  height: 100%;
+  height: 100vh;
+  height: 100dvh;
   scroll-behavior: smooth;
 }
 body {
-  height: 100dvh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
