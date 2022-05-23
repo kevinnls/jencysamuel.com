@@ -25,8 +25,8 @@ body {
   margin: 0px;
   padding: 5px;
 }
-
-header {
+header, footer {
+  width: 100%;
   text-align: center;
   display: grid;
 }
@@ -66,4 +66,7 @@ header > nav > ul > li > input:checked + label {
 }
 main {
     max-width: clamp(50%, 400px, 90%)
+}
+footer {
+    padding-bottom: 5px;
 }
