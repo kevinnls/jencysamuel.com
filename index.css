@@ -1,10 +1,3 @@
-:root {
-  --bg-color: var(--bg-color);
-  --fg-color: var(--fg-color);
-  --accent-color: hsl(120, 65%, 46%);
-  --theme-color-dark: hsl(120, 45%, 24%);
-  --theme-color-light: hsl(120, 46%, 47%);
-}
 html,
 body,
 p,

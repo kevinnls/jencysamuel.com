@@ -1,0 +1,7 @@
+:root {
+    --bg-color: #000000;
+    --fg-color: #ffffff;
+    --accent-color: hsl(120, 65%, 46%);
+    --theme-color-dark: hsl(120, 45%, 24%);
+    --theme-color-light: hsl(120, 46%, 47%);
+}
