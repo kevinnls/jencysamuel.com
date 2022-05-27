@@ -21,8 +21,8 @@ header, footer {
   text-align: center;
   display: grid;
 }
-header > nav h2 {
-  margin: 0px;
+header > nav {
+  background-color: var(--theme-color-dark);
 }
 header > nav > ul {
   display: flex;
