@@ -1,13 +1,4 @@
-html,
-body,
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-div {
+* {
   box-sizing: border-box;
 }
 html {
@@ -23,7 +14,7 @@ body {
   align-items: center;
   justify-content: space-between;
   margin: 0px;
-  padding: 5px;
+  padding: 0px;
 }
 header, footer {
   width: 100%;
@@ -70,6 +61,6 @@ header > nav > ul {
 main {
     max-width: clamp(50%, 400px, 90%)
 }
-footer {
-    padding-bottom: 5px;
+footer,header {
+    margin:15px 0px 15px 0px;
 }
