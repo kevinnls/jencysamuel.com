@@ -2,4 +2,5 @@
     font-family: cursive;
     color: var(--fg-color);
     background-color: var(--bg-color);
+    accent-color: var(--theme-color-accent);
 }
