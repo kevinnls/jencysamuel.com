@@ -15,15 +15,17 @@ body {
   margin: 0px;
   padding: 0px;
 }
+
 header, footer {
   width: 100%;
   text-align: center;
   display: grid;
 }
-header > nav {
+
+nav {
   background-color: var(--theme-color-dark);
 }
-header > nav > ul {
+ul.nav {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -32,31 +34,27 @@ header > nav > ul {
   padding: 0px;
   width: fit-content;
   margin: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
-header > nav > ul > li {
+ul.nav > li {
   margin: 1ch;
 }
-header > nav > ul > li > input + label {
-  transition: 0.75s;
+a:link.nav {
+  transition: 0.25s;
+  text-decoration: underline dotted;
+  color: white;
+  font-size: 1.35em;
 }
-header > nav > ul > li:hover > input + label {
+a:link:hover.nav {
   /* font-size: 1.75em; */
-  text-shadow: 0px 0px 15px var(--accent-color);
+  text-shadow: 0px 0px 15px var(--theme-color-accent);
 }
-header > nav > ul > li > input[type="radio"] {
-  display: none;
-}
-header > nav > ul > li > label {
-  cursor: pointer;
-}
-header > nav > ul > li > input:checked + label {
+a:link.nav.current {
   /* font-size: 1.75em; */
-  text-shadow: 0px 0px 15px var(--accent-color);
+  text-shadow: 0px 0px 15px var(--theme-color-accent);
 }
-header > nav > ul {
-    display: flex;
-    flex-wrap: wrap;
-}
+
 main {
     max-width: clamp(50%, 400px, 90%)
 }
