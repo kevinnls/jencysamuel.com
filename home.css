@@ -1,0 +1,14 @@
+.cover-section {
+    border-radius: 32px;
+    border: 1px solid pink;
+    flex-grow: 1;
+}
+
+main {
+    max-width: initial; /* reset index.css */
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
