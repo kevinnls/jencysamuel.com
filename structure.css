@@ -1,22 +1,27 @@
 * {
   box-sizing: border-box;
 }
+
 html {
   color-scheme: dark light;
   scroll-behavior: smooth;
 }
+
 body {
   height: 100vh;
   height: 100dvh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
   margin: 0px;
   padding: 0px;
 }
 
-header, footer {
+main {
+    max-width: clamp(50%, 400px, 90%);
+    margin: 0px auto;
+}
+footer,header {
+  margin:15px 0px 15px 0px;
   width: 100%;
   text-align: center;
   display: grid;
@@ -55,9 +60,3 @@ a:link.nav.current {
   text-shadow: 0px 0px 15px var(--theme-color-accent);
 }
 
-main {
-    max-width: clamp(50%, 400px, 90%)
-}
-footer,header {
-    margin:15px 0px 15px 0px;
-}
