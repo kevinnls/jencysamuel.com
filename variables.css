@@ -1,5 +1,5 @@
 :root {
-    font-family: cursive;
+    font-family: ui-sans-serif, sans-serif;
     color: var(--fg-color);
     background-color: var(--bg-color);
     accent-color: var(--theme-color-accent);
