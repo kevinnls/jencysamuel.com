@@ -1,14 +1,15 @@
 .cover-section {
     border-radius: 32px;
     border: 1px solid pink;
-    flex-grow: 1;
+    flex: 1 0 150px;
+    min-width: 23vw;
+    margin: 2ch;
+    padding: 1.5ch;
 }
 
 main {
-    max-width: initial; /* reset index.css */
-    width: 90vw;
+    max-width: 90vw; /* reset index.css */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
-    flex-direction: row;
 }
