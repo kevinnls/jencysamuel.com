@@ -1,15 +1,14 @@
 .cover-section {
     border-radius: 32px;
-    flex: 1 0 150px;
-    min-width: 23vw;
+    flex: 0 1 clamp(20vw,320px,90vw);
     margin: 2ch;
     padding: 1.5ch;
-    background-color: hsla(var(--theme-light),70%);
+    background-color: hsla(var(--theme-light),33%);
 }
 
 main {
     max-width: 90vw; /* reset index.css */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
