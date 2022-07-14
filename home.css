@@ -1,10 +1,10 @@
 .cover-section {
     border-radius: 32px;
-    border: 1px solid pink;
     flex: 1 0 150px;
     min-width: 23vw;
     margin: 2ch;
     padding: 1.5ch;
+    background-color: hsla(var(--theme-light),70%);
 }
 
 main {

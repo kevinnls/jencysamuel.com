@@ -1,7 +1,10 @@
 :root {
     --bg-color: #ffffff;
     --fg-color: #000000;
-    --theme-color-accent: hsl(120, 65%, 46%);
-    --theme-color-dark: hsl(120, 45%, 24%);
-    --theme-color-light: hsl(120, 46%, 47%);
+    --theme-accent: 120, 65%, 46%;
+    --theme-dark: 120, 45%, 24%;
+    --theme-light: 120, 46%, 47%;
+    --theme-color-accent: hsl(var(--theme-accent));
+    --theme-color-dark: hsl(var(--theme-dark));
+    --theme-color-light: hsl(var(--theme-light));
 }
