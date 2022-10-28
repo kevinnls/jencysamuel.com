@@ -14,6 +14,7 @@ pod:
 wordpress: database
 	podman run -d --rm \
 		--pod $(PODNAME) \
+		--name $(PODNAME)_wp \
 		--volume $(PODNAME)-wordpress:/var/www/html \
 		--volume ./src/:/var/www/html/wp-content/themes/js-com:ro,U,Z \
 		--env-file wordpress.env \
@@ -22,6 +23,7 @@ wordpress: database
 database: pod
 	podman run -d --rm \
 		--pod $(PODNAME) \
+		--name $(PODNAME)_db \
 		--volume $(PODNAME)-database:/var/lib/mysql \
 		--env-file database.env \
 		docker.io/library/mysql:latest
