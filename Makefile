@@ -15,7 +15,7 @@ wordpress: database
 	podman run -d --rm \
 		--pod $(PODNAME) \
 		--volume $(PODNAME)-wordpress:/var/www/html \
-		--volume ./:/var/www/html/wp-content/themes/js-com:ro,U,Z \
+		--volume ./src/:/var/www/html/wp-content/themes/js-com:ro,U,Z \
 		--env-file wordpress.env \
 		docker.io/library/wordpress:latest
 
