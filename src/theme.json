@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "slug": "theme-light",
+          "color": "#225922"
+        },
+        {
+          "slug": "theme-dark",
+          "color": "#223d22"
+        },
+        { "slug": "theme-accent", "color": "#297529" }
+      ]
+    }
+  },
+  "styles": {
+    "colors": {
+      "text": "hotpink"
+    }
+  }
+}
