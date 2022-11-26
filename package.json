@@ -2,7 +2,8 @@
   "scripts": {
     "dev": "concurrently --color auto 'npm:dev:*'",
     "dev:11ty": "npx @11ty/eleventy --watch",
-    "dev:twnd": "npx tailwindcss --watch --input src/_tailwind/style.css --output _site/style.css"
+    "dev:twnd": "npx tailwindcss --watch --input src/_tailwind/style.css --output _site/style.css",
+    "dev:srvr": "npx browser-sync start --config .bs-config.js"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
