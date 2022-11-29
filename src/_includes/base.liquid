@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta name="viewport" content="width=device-widht,initial-scale=1.0">
+	<title>
+	    {%if title%}
+		{{-title-}}
+	    {%elsif site.title%}
+		{{-site.title-}}
+	    {%else%}
+		11ty Site
+	    {%endif%}
+
+	</title>
+	<link rel="stylesheet" href="{{- '/style.css' | url -}}">
+    </head>
+    <body>
+	{{-content-}}
+    </body>
+</html>
