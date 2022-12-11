@@ -8,7 +8,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "theme-green": "rgb(0, 128, 55)",
+        theme: {
+	  DEFAULT: "rgb(0, 140, 35)",
+	  dark: "rgb(0, 140, 35)",
+	  light: "rgb(0, 180, 80)",
+	}
       },
     },
   },
