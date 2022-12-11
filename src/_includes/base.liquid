@@ -14,7 +14,22 @@
 		</title>
 		<link rel="stylesheet" href="{{- '/style.css' | url -}}">
 	</head>
-	<body>
+	<body class="grid grid-rows-[10vh_auto_5vh] min-h-screen">
+		<header class="bg-theme-dark">
+			<h1><a>{{site.name}}</a></h1>
+		</header>
+
 		{{-content-}}
+
+		<footer class="bg-theme-dark text-center text-sm grid place-content-center">
+			<span>
+				&copy;
+				{{site.author.name}}
+				<a href="mailto:{{site.author.email}}">
+					{{site.author.email}}
+				</a>
+				2022
+			</span>
+		</footer>
 	</body>
 </html>
