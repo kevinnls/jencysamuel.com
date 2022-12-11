@@ -2,12 +2,17 @@
 layout: 'base.liquid'
 ---
 
-<main class="grid gap-4
-	     md:grid-cols-3
-	     ">
-	{%-for post in posts-%}
-		<section class="rounded-xl border-black border-2">
-		{{post.title}}
-		</section>
-	{%-endfor-%}
+<main>
+	<ul class="grid
+		   gap-4
+		   md:grid-cols-3
+		   ">
+		{%-for post in posts-%}
+			<li>
+				<a href="{{-post.uri-}}" target="_blank" rel="noreferrer">
+				{%-render 'post_card.liquid', post: post-%}
+				</a>
+			</li>
+		{%-endfor-%}
+	</ul>
 </main>
