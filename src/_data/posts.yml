@@ -1,6 +1,7 @@
 -
   id: '001'
   title: '001'
+  date: '2022-09-19'
   uri: 'https://srv.kevinnlsamuel.com'
   img:
     alt: 'a dummy picture of 001'
@@ -9,6 +10,7 @@
 -
   id: '002'
   title: '002'
+  date: '2022-03-23'
   uri: 'https://srv.kevinnlsamuel.com'
   img:
     alt: 'a dummy picture of 002'
@@ -17,6 +19,7 @@
 -
   id: '003'
   title: '003'
+  date: '2022-03-20'
   uri: 'https://srv.kevinnlsamuel.com'
   img:
     alt: 'a dummy picture of 003'
@@ -25,6 +28,7 @@
 -
   id: '004'
   title: '004'
+  date: '1999-01-01'
   uri: 'https://srv.kevinnlsamuel.com'
   img:
     alt: 'a dummy picture of 004'
@@ -33,6 +37,7 @@
 -
   id: '005'
   title: '005'
+  date: '2000-06-29'
   uri: 'https://srv.kevinnlsamuel.com'
   img:
     alt: 'a dummy picture of 005'
@@ -41,14 +46,7 @@
 -
   id: '006'
   title: '006'
-  uri: 'https://srv.kevinnlsamuel.com'
-  img:
-    alt: 'a dummy picture of 006'
-    uri: 'img.png'
-
--
-  id: '006'
-  title: '006'
+  date: '2019-10-08'
   uri: 'https://srv.kevinnlsamuel.com'
   img:
     alt: 'a dummy picture of 006'
@@ -57,6 +55,7 @@
 -
   id: '007'
   title: '007'
+  date: '2023-11-20'
   uri: 'https://srv.kevinnlsamuel.com'
   img:
     alt: 'a dummy picture of 007'
@@ -65,6 +64,7 @@
 -
   id: '008'
   title: '008'
+  date: '2022-05-10'
   uri: 'https://srv.kevinnlsamuel.com'
   img:
     alt: 'a dummy picture of 008'
@@ -73,6 +73,7 @@
 -
   id: '009'
   title: '009'
+  date: '2018-03-24'
   uri: 'https://srv.kevinnlsamuel.com'
   img:
     alt: 'a dummy picture of 009'
@@ -81,6 +82,7 @@
 -
   id: '010'
   title: '010'
+  date: '2020-09-20'
   uri: 'https://srv.kevinnlsamuel.com'
   img:
     alt: 'a dummy picture of 010'
