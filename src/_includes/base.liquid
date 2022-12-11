@@ -14,14 +14,17 @@
 		</title>
 		<link rel="stylesheet" href="{{- '/style.css' | url -}}">
 	</head>
-	<body class="grid grid-rows-[max_auto_min] min-h-screen">
+	<body class="min-h-screen grid grid-rows-[max-content_auto_min-content]">
 		<header class="bg-theme-dark">
 			<h1><a>{{-site.name-}}</a></h1>
 		</header>
 
+		<div class="h-full">
 		{{-content-}}
+		</div>
 
-		<footer class="bg-theme-dark text-center text-sm grid place-content-center">
+		<footer class="bg-theme-dark text-center text-sm
+			       grid place-content-center">
 			<span>
 				&copy;&nbsp;
 				{{-site.author.name-}}&nbsp;2022
