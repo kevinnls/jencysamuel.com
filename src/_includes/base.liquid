@@ -14,14 +14,14 @@
 		</title>
 		<link rel="stylesheet" href="{{- '/style.css' | url -}}">
 	</head>
-	<body class="min-h-screen grid grid-rows-[max-content_auto_min-content]">
+	<body class="min-h-screen
+		     grid gap-4
+		     grid-rows-[max-content_auto_min-content]">
 		<header class="bg-theme-dark">
 			<h1><a>{{-site.name-}}</a></h1>
 		</header>
 
-		<div class="h-full">
 		{{-content-}}
-		</div>
 
 		<footer class="bg-theme-dark text-center text-sm
 			       grid place-content-center">
