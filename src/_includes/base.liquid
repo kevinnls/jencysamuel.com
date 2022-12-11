@@ -5,8 +5,8 @@
 		<title>
 			{%if title%}
 				{{-title-}}
-			{%elsif site.title%}
-				{{-site.title-}}
+			{%elsif site.name%}
+				{{-site.name-}}
 			{%else%}
 				11ty Site
 			{%endif%}
@@ -14,21 +14,17 @@
 		</title>
 		<link rel="stylesheet" href="{{- '/style.css' | url -}}">
 	</head>
-	<body class="grid grid-rows-[10vh_auto_5vh] min-h-screen">
+	<body class="grid grid-rows-[max_auto_min] min-h-screen">
 		<header class="bg-theme-dark">
-			<h1><a>{{site.name}}</a></h1>
+			<h1><a>{{-site.name-}}</a></h1>
 		</header>
 
 		{{-content-}}
 
 		<footer class="bg-theme-dark text-center text-sm grid place-content-center">
 			<span>
-				&copy;
-				{{site.author.name}}
-				<a href="mailto:{{site.author.email}}">
-					{{site.author.email}}
-				</a>
-				2022
+				&copy;&nbsp;
+				{{-site.author.name-}}&nbsp;2022
 			</span>
 		</footer>
 	</body>
