@@ -1,3 +1,4 @@
 ---
-layout: 'base.liquid'
+layout: 'home.liquid'
 ---
+
