@@ -2,12 +2,31 @@
 layout: 'base.liquid'
 ---
 
-<main>
+
+<main class="
+	   m-4
+	   md:m-16
+	   grid gap-4 md:gap-16"
+	>
+	<section class="p-4 md:p16 rounded bg-theme-light grid md:grid-cols-2 justify-items-end">
+	<div>
+		<p>
+			Three-quarter journalist, writer, editor. One-quarter civil engineer. Restoration.
+		</p>
+		<p>
+			Byline VillageSqIndia MongabayIndia, Rural21, IPS, etc.
+		</p>
+	</div>
+	<img src="{{ '/asset/cover.jpg' | url }}" alt="a smiling Jency with a few stray grays"
+						  class="rounded-full float w-24 md:w-64"
+	>
+	</section>
+
+	<section>
+	<h2 class="text-lg text-theme-dark">RECENT WORKS</h2>
 	<ul class="grid
 		   gap-4
-		   m-4
 		   md:gap-16
-		   md:m-16
 		   md:grid-cols-3
 		   ">
 		{%assign latest_nine_posts = posts | sort: 'date' | reverse | slice: 0, 9%}
@@ -19,6 +38,7 @@ layout: 'base.liquid'
 			</li>
 		{%-endfor-%}
 	</ul>
+	</section>
 	{%comment%}
 		<a href="/publications"
 	   class="block underline text-sm text-slate-500 text-center
