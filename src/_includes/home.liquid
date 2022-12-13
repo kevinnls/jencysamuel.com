@@ -5,6 +5,9 @@ layout: 'base.liquid'
 <main>
 	<ul class="grid
 		   gap-4
+		   m-4
+		   md:gap-16
+		   md:m-16
 		   md:grid-cols-3
 		   ">
 		{%assign latest_nine_posts = posts | sort: 'date' | reverse | slice: 0, 9%}
