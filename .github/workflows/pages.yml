@@ -1,0 +1,51 @@
+name: generate and deploy static content using 11ty
+on:
+  - push
+  - workflow_dispatch
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'get repo'
+        uses: actions/checkout@v3
+
+      - name: 'setup Node'
+        uses: actions/setup-node@v3
+        with:
+          node-version: current
+
+      - name: 'get npm cache dir'
+        id: cache-dir
+        run: printf '::set-output name=path::%s' $(npm config get cache)
+
+      - name: 'get cached node_modules'
+        uses: actions/cache@v3
+        with:
+          path: ${{ steps.cache-dir.outputs.path }}
+          key: npm-cache-${{ hashFiles('package-lock.json') }}
+          restore-keys: npm-cache-
+
+      - name: 'install dependencies'
+        run: npm ci
+
+      - name: 'build'
+        run: npm run build
+
+      - name: 'upload artificat'
+        uses: actions/upload-pages-artifact@v1
+
+  deploy:
+    needs: generate
+    runs-on: ubuntu-latest
+    if: github.ref_name == 'main'
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: 'deploy to GitHub Pages'
+        id: deploy
+        uses: actions/deploy-pages@v1
+
