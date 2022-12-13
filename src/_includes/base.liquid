@@ -16,9 +16,18 @@
 	</head>
 	<body class="min-h-screen
 		     grid
+		     items-center
 		     grid-rows-[max-content_auto_min-content]">
-		<header class="bg-theme-dark">
-			<h1><a>{{-site.name-}}</a></h1>
+		<header class="bg-theme-dark px-2 py-4 grid grid-flow-col auto-cols-fr items-center">
+			<h1 class="text-xl"><a href="{{ '/' | url }}">{{-site.name-}}</a></h1>
+			<section class="text-sm text-right text-zinc-300
+					grid place-content-end items-center
+					md:grid-flow-col md:gap-2">
+				<h2 class="sr-only">Jency Samuel on social media</h2>
+				<a href="https://twitter.com/jencysamuel">Twitter</a>
+				<span class="not-sr-only hidden md:inline">|</span>
+				<a href="https://www.instagram.com/jency.me.samuel/">Instagram</a>
+			</section>
 		</header>
 
 		{{-content-}}
