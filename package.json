@@ -3,7 +3,7 @@
     "prebuild": "rm -rf _site/",
     "build": "npm run build:11ty && npm run build:twnd",
     "build:11ty": "npx @11ty/eleventy",
-    "build:twnd": "npx tailwindcss --input src/_tailwind/style.css --output _site/style.css",
+    "build:twnd": "npx tailwindcss --minify --input src/_tailwind/style.css --output _site/style.css",
     "dev": "concurrently --color auto 'npm:dev:*'",
     "dev:11ty": "npx @11ty/eleventy --watch",
     "dev:twnd": "npx tailwindcss --watch --input src/_tailwind/style.css --output _site/style.css",

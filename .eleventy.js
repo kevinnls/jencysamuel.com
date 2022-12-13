@@ -16,6 +16,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("asset");
 
   return {
+    pathPrefix: process.env.ELEVENTY_pathPrefix ?? '',
     dir: {
       input: "src",
     },
