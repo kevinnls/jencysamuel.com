@@ -1,5 +1,5 @@
 <article class="rounded-md shadow hover:shadow-lg bg-theme-light/25">
-	<img src="{{-post.img.uri-}}" alt="{{-post.img.alt-}}" class="w-full h-auto rounded-t-md aspect-video bg-slate-200">
+	<img src="{{-post.img.uri | url-}}" alt="{{-post.img.alt-}}" class="w-full h-auto rounded-t-md aspect-video bg-slate-200">
        <h2 class="font-bold">{{-post.title-}}</h2>
        <div class="text-slate-600">
 	       <time datetime="{{-post.date | default: ''-}}"
