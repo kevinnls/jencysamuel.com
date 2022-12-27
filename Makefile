@@ -16,7 +16,7 @@ wordpress: database
 		--pod $(PODNAME) \
 		--name $(PODNAME)_wp \
 		--volume $(PODNAME)-wordpress:/var/www/html \
-		--volume ./src/:/var/www/html/wp-content/themes/js-com:ro,U,Z \
+		--volume ./src/:/var/www/html/wp-content/themes/twentytwenty-two-child:ro,U,Z \
 		--env-file wordpress.env \
 		docker.io/library/wordpress:latest
 
