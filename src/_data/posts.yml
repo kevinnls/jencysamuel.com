@@ -8,6 +8,17 @@
     uri: '/asset/post-img/682906-updated-solar-pump-india-1500.jpg'
   publisher: 'IndiaSpend'
 
+- id: '595724a'
+  title: 'Where waste ‘lights up’ villages'
+  uri: 'https://www.villagesquare.in/villages-in-tamil-nadu-generate-electricity-from-biogas-produced-with-waste/'
+  date: '2022-12-16'
+  img:
+    alt: 'the image shows how electricity produced in biogas plants can power common facilities (Photo courtesy Lachlan Ross, Pexels)'
+    uri: '/asset/post-img/595724a.jpg'
+  description: >
+    While waste disposal is a huge problem – moved from neighbourhoods to dump yards – villages in Tamil Nadu are turning their wet waste into biogas to generate electricity.
+  publisher: 'Village Square'
+
 -
   id: '001'
   title: '001'
