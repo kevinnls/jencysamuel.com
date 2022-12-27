@@ -1,11 +1,14 @@
 <article class="rounded-md shadow hover:shadow-lg bg-theme-light/25">
 	<img src="{{-post.img.uri | url-}}" alt="{{-post.img.alt-}}" class="w-full h-auto rounded-t-md aspect-video bg-slate-200">
+	<div class="p-4">
        <h3 class="font-bold">{{-post.title-}}</h3>
        <div class="text-slate-600">
 	       <time datetime="{{-post.date | default: ''-}}"
 		       >{{-post.date | default: ''-}}</time>
+	       &bull;
 	       <span
 	       >{{-post.publisher | default: 'an online magazine'-}}</span>
        </div>
        <p>{{post.description|default: 'Read more&hellip;'}}</p>
+	</div>
 </article>
