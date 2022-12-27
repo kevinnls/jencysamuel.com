@@ -5,6 +5,9 @@ module.exports = {
     "./src/**/*.md",
     "./src/_tailwind/style.css",
   ],
+  plugins: [
+	  require('@tailwindcss/line-clamp'),
+  ],
   theme: {
     extend: {
       colors: {
