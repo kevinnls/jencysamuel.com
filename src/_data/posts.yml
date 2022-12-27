@@ -51,3 +51,47 @@
     alt: 'Nageswara Rao spreads fertiliser while irrigating his oil palms in the Indian state of Andhra Pradesh (Image: Kevin Samuel / China Dialogue)'
     uri: '/asset/post-img/2e1cf86.jpg'
   publisher: China Dialogue
+
+- id: 07cff5e
+  title: "'We will bring change': the Indian band shaking a cruel caste system"
+  uri: https://www.theguardian.com/music/2020/sep/07/we-will-bring-change-the-indian-band-shaking-a-cruel-caste-system
+  date: '2021-09-07'
+  description: >
+    The Casteless Collective are repurposing the bawdy gaana style to confront class conflict
+    – and call out everything from corruption to violence against women
+  img:
+    alt: 'Casteless Collective pictured before a concert in Madurai. Photograph: M Palani Kumar/PEP Collective'
+    uri: '/asset/post-img/07cff5e.webp'
+  publisher: The Guardian
+
+- id: 2dc07c2
+  title: India’s women hawkers and platform vendors are left bereft of livelihood during lockdown
+  uri: https://womensmediacenter.com/women-under-siege/indias-women-hawkers-and-platform-vendors-are-left-bereft-of-livelihood-during-lockdown
+  date: '2020-06-16'
+  img:
+    uri: '/asset/post-img/2dc07c2.jpg'
+    alt: A woman sells flowers at a thoroughfare in Kodambakkam in the southern Indian state of Tamil Nadu.
+
+- id: a606502
+  title: 'A win-win-win model: urban investors finance rural agriculture'
+  uri: https://www.rural21.com/english/current-issue/detail/article/a-win-win-win-model-urban-investors-finance-rural-agriculture.html
+  date: '2020-06-26'
+  description: >
+    A new business model that could catch on – with their company “I Support Farming”,
+    two brothers from South India’s Chennai are bringing investors from the city
+    together with farmers who lack capital for necessary investments.
+    The investors bear the risk, while the profits are shared.
+  img:
+    alt: Farmer Sridharan Venkatachalam (right), who has benefitted thanks to associating with ISF, speaks to visitors
+    uri: '/asset/post-img/a606502.jpg'
+  publisher: Rural 21
+
+- id: 4d8d6e8
+  title: Tharuvaikulam’s palmyra climbers turn sustainable fishers
+  uri: https://india.mongabay.com/2019/08/tharuvaikulams-palmyra-climbers-turn-sustainable-fishers/
+  date: '2019-08-09'
+  img:
+    uri: '/asset/post-img/4d8d6e8.jpg'
+    alt: 'boats docked at a pier'
+  publisher: Mongaybay India
+
