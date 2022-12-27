@@ -1,5 +1,4 @@
--
-  id: 'as9andf02t'
+- id: 'as9andf02t'
   title: 'How Crowdfunding Can Fill The Finance Gap For Farmers To Go Solar'
   date: '2022-03-30'
   uri: 'https://www.indiaspend.com/agriculture/how-crowdfunding-can-fill-the-finance-gap-for-farmers-to-go-solar-810441'
@@ -12,12 +11,22 @@
   title: 'Where waste ‘lights up’ villages'
   uri: 'https://www.villagesquare.in/villages-in-tamil-nadu-generate-electricity-from-biogas-produced-with-waste/'
   date: '2022-12-16'
+  description: >
+    While waste disposal is a huge problem – moved from neighbourhoods to dump yards – villages in Tamil Nadu are turning their wet waste into biogas to generate electricity.
   img:
     alt: 'the image shows how electricity produced in biogas plants can power common facilities (Photo courtesy Lachlan Ross, Pexels)'
     uri: '/asset/post-img/595724a.jpg'
-  description: >
-    While waste disposal is a huge problem – moved from neighbourhoods to dump yards – villages in Tamil Nadu are turning their wet waste into biogas to generate electricity.
   publisher: 'Village Square'
+
+- id: '51a5317'
+  title: South Indian birdwatchers discover new songbird in Arunachal Pradesh
+  uri: 'https://thesouthfirst.com/featured/south-indian-birdwatchers-discover-new-songbird-in-arunachal-pradesh/'
+  date: '2022-12-19'
+  description: This is the story of how a group, despite numerous obstacles, documented what they now call the Lisu wren babbler.
+  img:
+    alt: 'a picture of a male of newly-discovered bird perched on a branch'
+    uri: '/asset/post-img/51a5317.jpg'
+  publisher: 'The South First'
 
 -
   id: '001'
