@@ -37,6 +37,10 @@
   title: Can small wind turbines contribute to large renewable goals?
   uri: https://india.mongabay.com/2022/09/can-small-wind-turbines-contribute-to-bigger-renewable-goals/
   date: '2022-09-06'
+  description: >
+    India has ambitious renewable energy targets and to achieve this, the country is relying on
+    large-scale wind and solar projects. However, small wind (SW) turbines and small wind-solar (SWS)
+    hybrids have the potential to meet energy needs through grid-connected and off-grid systems.
   img:
     alt: 'three small wind turbine windmills with an open field in the background'
     uri: '/asset/post-img/8794622.jpg'
@@ -68,9 +72,13 @@
   title: India’s women hawkers and platform vendors are left bereft of livelihood during lockdown
   uri: https://womensmediacenter.com/women-under-siege/indias-women-hawkers-and-platform-vendors-are-left-bereft-of-livelihood-during-lockdown
   date: '2020-06-16'
+  description: >
+    Selling flowers, vegetables, fish and the like on thoroughfares or walking from street to street
+    with their headload of wares, women hawkers’ livelihood was severely affected by the pandemic-induced lockdown.
   img:
     uri: '/asset/post-img/2dc07c2.jpg'
     alt: A woman sells flowers at a thoroughfare in Kodambakkam in the southern Indian state of Tamil Nadu.
+  publisher: Women's Media Center
 
 - id: a606502
   title: 'A win-win-win model: urban investors finance rural agriculture'
@@ -90,6 +98,11 @@
   title: Tharuvaikulam’s palmyra climbers turn sustainable fishers
   uri: https://india.mongabay.com/2019/08/tharuvaikulams-palmyra-climbers-turn-sustainable-fishers/
   date: '2019-08-09'
+  description: >
+    A drought that saw palmyra trees wilting and the ban on toddy tapping in 1987
+    made the people of Tharuvaikulam village in Thoothukudi district switch to fishing.
+    The villagers decided to adopt sustainable fishing practices, after realising that
+    trawl nets were destroying the corals that were homes to the fish.
   img:
     uri: '/asset/post-img/4d8d6e8.jpg'
     alt: 'boats docked at a pier'
