@@ -14,7 +14,6 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.setQuietMode(doesPrefQuiet());
 
   eleventyConfig.addPassthroughCopy("asset");
-  eleventyConfig.addPassthroughCopy("CNAME");
 
   return {
     pathPrefix: process.env.ELEVENTY_pathPrefix ?? '',
