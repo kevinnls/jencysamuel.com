@@ -44,7 +44,7 @@ jobs:
   deploy:
     needs: generate
     runs-on: ubuntu-latest
-    if: github.ref_name == 'www-11ty'
+    if: github.ref_name == 'main'
     permissions:
       pages: write
       id-token: write
